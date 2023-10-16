@@ -40,7 +40,7 @@ while True:
             print(neopixel_strip[3])
             neopixel_strip.show()
 
-            if amount_of_light >= 52():
+        if amount_of_light >= 52():
             neopixel_strip[0] = (255, 0, 0)
             neopixel_strip[1] = (255, 0, 0)
             neopixel_strip[2] = (0, 0, 0)
@@ -51,7 +51,7 @@ while True:
             print(neopixel_strip[3])
             neopixel_strip.show()
 
-            if amount_of_light > 104():
+        if amount_of_light > 104():
             neopixel_strip[0] = (255, 0, 0)
             neopixel_strip[1] = (255, 0, 0)
             neopixel_strip[2] = (255, 0, 0)
@@ -62,7 +62,7 @@ while True:
             print(neopixel_strip[3])
             neopixel_strip.show()
 
-            if amount_of_light > 156():
+        if amount_of_light > 156():
             neopixel_strip[0] = (255, 0, 0)
             neopixel_strip[1] = (255, 0, 0)
             neopixel_strip[2] = (255, 0, 0)
@@ -73,7 +73,7 @@ while True:
             print(neopixel_strip[3])
             neopixel_strip.show()
 
-            if amount_of_light > 208():
+        if amount_of_light > 208():
             neopixel_strip[0] = (255, 0, 0)
             neopixel_strip[1] = (255, 0, 0)
             neopixel_strip[2] = (255, 0, 0)
@@ -83,4 +83,3 @@ while True:
             print(neopixel_strip[2])
             print(neopixel_strip[3])
             neopixel_strip.show()
-
