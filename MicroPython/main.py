@@ -5,6 +5,27 @@ This module is a Micro:bit MicroPython program
 """
 
 from microbit import *
+import neopixel
 
+# variables
+neopixel_strip = neopixel.NeoPixel(pin16, 8)
+amount_of_light = 0
 
-display.scroll("Hello, World!")
+display.clear()
+display.show(Image.Heart)
+display.pause(1000)
+
+while True:
+    neopixel_strip[0] = (0, 0, 0)
+    neopixel_strip[1] = (0, 0, 0)
+    neopixel_strip[2] = (0, 0, 0)
+    neopixel_strip[3] = (0, 0, 0)
+    print(neopixel_strip[0])
+    print(neopixel_strip[1])
+    print(neopixel_strip[2])
+    print(neopixel_strip[3])
+    neopixel_strip.show()
+
+    if button_a.is_pressed():
+        
+
