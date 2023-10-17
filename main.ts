@@ -23,7 +23,6 @@ neopixelStrip.show()
 input.onButtonPressed(Button.A, function () {
   amountOfLight = input.lightLevel()
   basic.clearScreen()
-  basic.showNumber(amountOfLight)
 
   if (amountOfLight <= 51) {
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
@@ -60,4 +59,8 @@ input.onButtonPressed(Button.A, function () {
     neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Purple))
     neopixelStrip.show()
   }
+})
+
+input.onButtonPressed(Button.A, function() {
+    basic.showNumber(amountOfLight)
 })
