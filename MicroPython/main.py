@@ -15,22 +15,23 @@ display.clear()
 display.show(Image.Heart)
 display.pause(1000)
 
+neopixel_strip[0] = (0, 0, 0)
+neopixel_strip[1] = (0, 0, 0)
+neopixel_strip[2] = (0, 0, 0)
+neopixel_strip[3] = (0, 0, 0)
+print(neopixel_strip[0])
+print(neopixel_strip[1])
+print(neopixel_strip[2])
+print(neopixel_strip[3])
+neopixel_strip.show()
+
 while True:
-    neopixel_strip[0] = (0, 0, 0)
-    neopixel_strip[1] = (0, 0, 0)
-    neopixel_strip[2] = (0, 0, 0)
-    neopixel_strip[3] = (0, 0, 0)
-    print(neopixel_strip[0])
-    print(neopixel_strip[1])
-    print(neopixel_strip[2])
-    print(neopixel_strip[3])
-    neopixel_strip.show()
 
     if button_a.is_pressed():
-        amount_of_light = microbit.display.read_light_level()
+        amount_of_light = display.read_light_level()
 
         if amount_of_light <= 51():
-            neopixel_strip[0] = (255, 0, 0)
+            neopixel_strip[0] = (0, 0, 0)
             neopixel_strip[1] = (0, 0, 0)
             neopixel_strip[2] = (0, 0, 0)
             neopixel_strip[3] = (0, 0, 0)
@@ -42,7 +43,7 @@ while True:
 
         if amount_of_light >= 52():
             neopixel_strip[0] = (255, 0, 0)
-            neopixel_strip[1] = (255, 0, 0)
+            neopixel_strip[1] = (0, 0, 0)
             neopixel_strip[2] = (0, 0, 0)
             neopixel_strip[3] = (0, 0, 0)
             print(neopixel_strip[0])
@@ -54,7 +55,7 @@ while True:
         if amount_of_light > 104():
             neopixel_strip[0] = (255, 0, 0)
             neopixel_strip[1] = (255, 0, 0)
-            neopixel_strip[2] = (255, 0, 0)
+            neopixel_strip[2] = (0, 0, 0)
             neopixel_strip[3] = (0, 0, 0)
             print(neopixel_strip[0])
             print(neopixel_strip[1])
