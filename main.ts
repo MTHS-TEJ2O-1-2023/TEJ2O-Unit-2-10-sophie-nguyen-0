@@ -6,7 +6,7 @@
 */
 
 // variables
-let amountOfLight: number
+let amountOfLight: number =0
 let neopixelStrip: neopixel.Strip = null
 
 basic.clearScreen()
@@ -62,6 +62,6 @@ input.onButtonPressed(Button.A, function () {
 })
 
 input.onButtonPressed(Button.B, function() {
-    amountOfLight = input.lightLevel()
-    basic.showNumber(amountOfLight)
+  basic.clearScreen()
+  basic.showNumber(amountOfLight)
 })
