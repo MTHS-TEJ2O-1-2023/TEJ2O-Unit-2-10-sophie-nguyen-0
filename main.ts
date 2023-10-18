@@ -70,9 +70,9 @@ input.onButtonPressed(Button.A, function () {
   }
 })
 
+// reset screen
 input.onButtonPressed(Button.B, function () {
   basic.clearScreen()
-
   neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
   neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
   neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
