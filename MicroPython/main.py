@@ -26,10 +26,10 @@ print(neopixel_strip[3])
 neopixel_strip.show()
 
 while True:
-
     if button_a.is_pressed():
         amount_of_light = display.read_light_level()
 
+        # amount of light <= 51
         if amount_of_light <= 51():
             neopixel_strip[0] = (0, 0, 0)
             neopixel_strip[1] = (0, 0, 0)
@@ -41,6 +41,7 @@ while True:
             print(neopixel_strip[3])
             neopixel_strip.show()
 
+        # amount of light >= 52
         if amount_of_light >= 52():
             neopixel_strip[0] = (255, 0, 0)
             neopixel_strip[1] = (0, 0, 0)
@@ -52,6 +53,7 @@ while True:
             print(neopixel_strip[3])
             neopixel_strip.show()
 
+        # amount of light > 104
         if amount_of_light > 104():
             neopixel_strip[0] = (255, 0, 0)
             neopixel_strip[1] = (255, 0, 0)
@@ -63,6 +65,7 @@ while True:
             print(neopixel_strip[3])
             neopixel_strip.show()
 
+        # amount of light > 156
         if amount_of_light > 156():
             neopixel_strip[0] = (255, 0, 0)
             neopixel_strip[1] = (255, 0, 0)
@@ -74,6 +77,7 @@ while True:
             print(neopixel_strip[3])
             neopixel_strip.show()
 
+        # amount of light > 208
         if amount_of_light > 208():
             neopixel_strip[0] = (255, 0, 0)
             neopixel_strip[1] = (255, 0, 0)
@@ -85,6 +89,7 @@ while True:
             print(neopixel_strip[3])
             neopixel_strip.show()
 
+# reset screen
         if button_b.is_pressed():
             display.clear()
             neopixel_strip[0] = (0, 0, 0)
