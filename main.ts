@@ -32,7 +32,7 @@ input.onButtonPressed(Button.A, function () {
     neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
     neopixelStrip.show()
   }
-  
+
   // amount of light >= 52
   if (amountOfLight >= 52) {
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Purple))
@@ -78,5 +78,4 @@ input.onButtonPressed(Button.B, function () {
   neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
   neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
   neopixelStrip.show()
-
 })
