@@ -1,6 +1,6 @@
 """
-Created by: Mr. Coxall
-Created on: Sep 2020
+Created by: Sophie
+Created on: Oct 2023
 This module is a Micro:bit MicroPython program
 """
 
@@ -11,6 +11,7 @@ import neopixel
 neopixel_strip = neopixel.NeoPixel(pin16, 8)
 amount_of_light = 0
 
+# setup
 display.clear()
 display.show(Image.Heart)
 display.pause(1000)
@@ -25,6 +26,7 @@ print(neopixel_strip[2])
 print(neopixel_strip[3])
 neopixel_strip.show()
 
+# loop
 while True:
     if button_a.is_pressed():
         amount_of_light = display.read_light_level()
