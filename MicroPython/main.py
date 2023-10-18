@@ -89,7 +89,7 @@ while True:
             print(neopixel_strip[3])
             neopixel_strip.show()
 
-# reset screen
+        # reset screen
         if button_b.is_pressed():
             display.clear()
             neopixel_strip[0] = (0, 0, 0)
