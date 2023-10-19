@@ -92,15 +92,15 @@ while True:
             print(neopixel_strip[3])
             neopixel_strip.show()
 
-        # reset screen
-        if button_b.is_pressed():
-            display.clear()
-            neopixel_strip[0] = (0, 0, 0)
-            neopixel_strip[1] = (0, 0, 0)
-            neopixel_strip[2] = (0, 0, 0)
-            neopixel_strip[3] = (0, 0, 0)
-            print(neopixel_strip[0])
-            print(neopixel_strip[1])
-            print(neopixel_strip[2])
-            print(neopixel_strip[3])
-            neopixel_strip.show()
+    # reset screen
+    if button_b.is_pressed():
+        display.clear()
+        neopixel_strip[0] = (0, 0, 0)
+        neopixel_strip[1] = (0, 0, 0)
+        neopixel_strip[2] = (0, 0, 0)
+        neopixel_strip[3] = (0, 0, 0)
+        print(neopixel_strip[0])
+        print(neopixel_strip[1])
+        print(neopixel_strip[2])
+        print(neopixel_strip[3])
+        neopixel_strip.show()
