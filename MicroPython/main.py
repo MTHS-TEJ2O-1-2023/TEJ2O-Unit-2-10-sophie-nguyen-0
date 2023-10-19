@@ -29,6 +29,7 @@ neopixel_strip.show()
 # loop
 while True:
     if button_a.is_pressed():
+        display.clear()
         amount_of_light = display.read_light_level()
 
         # amount of light <= 51
