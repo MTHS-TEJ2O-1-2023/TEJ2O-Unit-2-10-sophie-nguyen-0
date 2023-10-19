@@ -13,7 +13,7 @@ amount_of_light = 0
 
 # setup
 display.clear()
-display.show(Image.Heart)
+display.show(Image.HEART)
 display.pause(1000)
 
 neopixel_strip[0] = (0, 0, 0)
