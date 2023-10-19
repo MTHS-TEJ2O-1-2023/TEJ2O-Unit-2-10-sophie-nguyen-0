@@ -1,10 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="532" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1086" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="5">
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" parent="1" source="2" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
@@ -13,178 +13,208 @@
                 <mxCell id="3" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="371" y="610" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="7">
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" parent="1" source="5" target="7" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                <mxCell id="5" value="&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
                     <mxGeometry x="301.5" y="180" width="239" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="9">
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" parent="1" source="7" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="7" value="&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="281" y="300" width="280" height="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="3">
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" parent="1" source="9" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="show neopixel" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                <mxCell id="9" value="show neopixel" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
                     <mxGeometry x="356.5" y="500" width="129" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="12" target="14">
+                <mxCell id="15" value="" style="edgeStyle=none;html=1;" parent="1" source="12" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="12" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="750" y="79" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="button a" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="13" value="button a" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="765" y="45" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="14" target="16">
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;" parent="1" source="14" target="16" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="&lt;div&gt;&amp;nbsp; amountOfLight = input.lightLevel()&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                <mxCell id="14" value="&lt;div&gt;&amp;nbsp; amountOfLight = input.lightLevel()&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
                     <mxGeometry x="705" y="170" width="190" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="16" target="18">
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;" parent="1" source="16" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" style="edgeStyle=none;html=1;" edge="1" parent="1" source="16" target="22">
+                <mxCell id="23" style="edgeStyle=none;html=1;" parent="1" source="16" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="if (amountOfLight &amp;lt;= 51)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="16" value="if (amountOfLight &amp;lt;= 51)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="720" y="280" width="160" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="18" target="20">
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;" parent="1" source="18" target="20" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="18" value="&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="940" y="250" width="260" height="190" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;" edge="1" parent="1" source="20" target="22">
+                <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;" parent="1" source="20" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="show neopixel" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                <mxCell id="20" value="show neopixel" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
                     <mxGeometry x="1005" y="490" width="130" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="22" target="28">
+                <mxCell id="29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="22" target="28" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="22" target="33">
+                <mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="22" target="33" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="if (amountOfLight &amp;gt;= 52)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="22" value="if (amountOfLight &amp;gt;= 52)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="720" y="625" width="160" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="25" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="880" y="305" width="40" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="27" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="800" y="420" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="28" target="30">
+                <mxCell id="31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="28" target="30" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="28" value="&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="940" y="600" width="260" height="190" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="30" target="33">
+                <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="30" target="33" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="show neopixel" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                <mxCell id="30" value="show neopixel" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
                     <mxGeometry x="1005" y="840" width="130" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="33" target="38">
+                <mxCell id="40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="33" target="38" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="33" target="43">
+                <mxCell id="44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="33" target="43" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="if (amountOfLight &amp;gt; 104)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="33" value="if (amountOfLight &amp;gt; 104)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="720" y="970" width="160" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="36" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="880" y="665" width="40" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="37" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="795" y="765" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="38" target="41">
+                <mxCell id="42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="38" target="41" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="38" value="&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="950" y="945" width="260" height="190" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="41" target="43">
+                <mxCell id="45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="41" target="43" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="show neopixel" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                <mxCell id="41" value="show neopixel" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
                     <mxGeometry x="1015" y="1170" width="130" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="43" target="46">
+                <mxCell id="47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="43" target="46" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="43" target="50">
+                <mxCell id="51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="43" target="50" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" value="if (amountOfLight &amp;gt; 156)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="43" value="if (amountOfLight &amp;gt; 156)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="735" y="1310" width="160" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="46" target="48">
+                <mxCell id="49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="46" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="46" value="&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="950" y="1270" width="260" height="190" as="geometry"/>
                 </mxCell>
-                <mxCell id="52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="50">
+                <mxCell id="52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="48" target="50" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" value="show neopixel" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                <mxCell id="48" value="show neopixel" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
                     <mxGeometry x="1015" y="1500" width="130" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="50" target="57">
+                <mxCell id="58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="50" target="57" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="50" target="61">
+                <mxCell id="62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="50" target="61" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="if (amountOfLight &amp;gt; 208)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="50" value="if (amountOfLight &amp;gt; 208)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="735" y="1590" width="160" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="53" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="860" y="1005" width="40" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="54" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="795" y="1115" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="55" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="880" y="1335" width="40" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="56" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="810" y="1450" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="57" target="59">
+                <mxCell id="60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="57" target="59" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="57" value="&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&amp;nbsp; &amp;nbsp; neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Purple))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="950" y="1590" width="260" height="190" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="59" target="61">
+                <mxCell id="63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="59" target="61" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="830" y="1870" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="59" value="show neopixel" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                <mxCell id="59" value="show neopixel" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
                     <mxGeometry x="1015" y="1820" width="130" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="61" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="765" y="1910" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="64" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="64" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="880" y="1625" width="40" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="65" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="805" y="1735" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="67" target="70">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1450" y="79" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1450" y="610" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="70" target="72">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;clear screen&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="1380.5" y="180" width="239" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="72" target="74">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="1360" y="300" width="280" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="74" target="68">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="show neopixel" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="1435.5" y="500" width="129" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="button b" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1465" y="55" width="70" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
