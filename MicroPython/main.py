@@ -1,7 +1,7 @@
 """
 Created by: Sophie
 Created on: Oct 2023
-This module is a Micro:bit MicroPython program
+This module is a Micro:bit MicroPython program that detects amount of light
 """
 
 from microbit import *
